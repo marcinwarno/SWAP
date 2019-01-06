@@ -28,7 +28,21 @@ class LoginScreenController: UIViewController {
         
     }
     
-
+    @IBAction func loginButtonPressed(_ sender: Any) {
+        
+        Auth.auth().signIn(withEmail: nickText.text!, password: passwordText.text!) { (user, error) in
+            if error != nil{
+                print(error!)
+                
+            }else {
+                print("Succesful login")
+                
+                self.performSegue(withIdentifier: "goToMenuLogin", sender: self)
+            }
+        }
+        
+    }
+    
     /*
     // MARK: - Navigation
 

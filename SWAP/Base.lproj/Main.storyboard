@@ -38,12 +38,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SQL-G0-qS5">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SQL-G0-qS5">
                                 <rect key="frame" x="129" y="209" width="154" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIm-Lt-19C">
                                 <rect key="frame" x="140" y="73" width="95" height="30"/>
@@ -60,7 +59,6 @@
                                 </state>
                                 <connections>
                                     <action selector="registerButtonPressed:" destination="vyC-ko-nuC" eventType="touchUpInside" id="Jxb-tV-2Lq"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="goToMenuFromRegister" id="Ssc-iz-i9Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -71,6 +69,7 @@
                     <connections>
                         <outlet property="emailTextfield" destination="gRi-X8-PGA" id="7AS-VN-fED"/>
                         <outlet property="passwordTextfield" destination="SQL-G0-qS5" id="wTd-Zc-jnL"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToMenuRegister" id="NVR-qp-dAE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XpV-7q-0AW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -104,7 +103,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IlU-Fb-hd7">
                                 <rect key="frame" x="159" y="173" width="150" height="30"/>
@@ -128,7 +127,7 @@
                                     <color key="titleShadowColor" red="0.84465640779999995" green="0.51457053419999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="goToMenu" id="8Al-yw-RXR"/>
+                                    <action selector="loginButtonPressed:" destination="GEb-hm-NPv" eventType="touchUpInside" id="wRR-OM-KgK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbM-Yn-iq7">
@@ -149,6 +148,7 @@
                         <outlet property="nickText" destination="IlU-Fb-hd7" id="n9m-4u-Lvh"/>
                         <outlet property="passwordLable" destination="SNO-gf-Dd3" id="IEj-qm-JLS"/>
                         <outlet property="passwordText" destination="KRc-yb-pG5" id="Zh4-ub-Igf"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goToMenuLogin" id="Ufn-UM-2tJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C0C-Oj-YZs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -302,7 +302,8 @@
                                 <state key="normal" title="Link"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.43784153461456299" green="0.91246867179870605" blue="0.86126524209976196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.19566699862480164" green="0.60681599378585815" blue="0.97756856679916382" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3am-ih-pwl"/>
                     </view>
                     <navigationItem key="navigationItem" id="TLg-SE-qnL"/>
@@ -316,6 +317,6 @@
         <image name="ShowQRsm" width="249" height="23"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ssc-iz-i9Z"/>
+        <segue reference="NVR-qp-dAE"/>
     </inferredMetricsTieBreakers>
 </document>
