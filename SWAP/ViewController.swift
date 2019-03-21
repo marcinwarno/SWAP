@@ -14,49 +14,59 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var ImageView: UIImageView!
     
+    @IBOutlet weak var OtherUsername: UITextField!
+    
     var nick = ""
     var link = "https://swapapp.com/"
 
     
-
-
-    @IBAction func Button(_ sender: Any) {
-        link += nick
+    @IBAction func SnapchatButtonPressed(_ sender: Any) {
         
-        let image = generateQRCode(from: link)
-        
-        ImageView.image = image
+        let otherUsername = OtherUsername.text!
         
         
     }
     
-    
-    
-    
-    
-    func generateQRCode(from string: String) -> UIImage? {
-        let data = string.data(using: String.Encoding.ascii)
-        
-        if let filter = CIFilter(name: "CIQRCodeGenerator") {
-            filter.setValue(data, forKey: "inputMessage")
-            let transform = CGAffineTransform(scaleX: 10, y: 10)
-            
-            if let output = filter.outputImage?.transformed(by: transform) {
-                return UIImage(ciImage: output)
-            }
-        }
-        
-        return nil
+    @IBAction func InstagramButtonPressed(_ sender: Any) {
     }
     
+    
+    
+//
+//    @IBAction func Button(_ sender: Any) {
+//        link += nick
+//
+//        let image = generateQRCode(from: link)
+//
+//        ImageView.image = image
+//
+//
+//    }
+//    
+//
+//    func generateQRCode(from string: String) -> UIImage? {
+//        let data = string.data(using: String.Encoding.ascii)
+//
+//        if let filter = CIFilter(name: "CIQRCodeGenerator") {
+//            filter.setValue(data, forKey: "inputMessage")
+//            let transform = CGAffineTransform(scaleX: 10, y: 10)
+//
+//            if let output = filter.outputImage?.transformed(by: transform) {
+//                return UIImage(ciImage: output)
+//            }
+//        }
+//
+//        return nil
+//    }
+//
     
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let image = generateQRCode(from: "Welcome to SWAP")
-        ImageView.image = image
+//        let image = generateQRCode(from: "Welcome to SWAP")
+//        ImageView.image = image
     }
 
 

@@ -13,6 +13,7 @@ class RegisterViewController: UIViewController {
 
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
+    @IBOutlet weak var usernameTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,16 +22,32 @@ class RegisterViewController: UIViewController {
     
     @IBAction func registerButtonPressed(_ sender: UIButton) {
         Auth.auth().createUser(withEmail: emailTextfield.text! , password: passwordTextfield.text! ) { (user, error) in
-            if error != nil{
-                print(error!)
-            } else{
-                print("Succes registration")
-                
-                self.performSegue(withIdentifier: "goToMenuRegister", sender: self)
-                
-            }
             
+            if error != nil {
+                print(error!)
+            } else {
+                print("Succes registration")
+                let username = self.usernameTextField.text!
+                let userID = Auth.auth().currentUser?.uid
+                
+                var ref: DatabaseReference!
+                
+                ref = Database.database().reference()
+                
+                ref.child("users").child(userID!).setValue(["Username": username, "Snapchat-nick" : "", "Instagram-nick": ""]) {
+                    (error:Error?, ref:DatabaseReference) in
+                    if let error = error {
+                        print("Data could not be saved: \(error).")
+                    } else {
+                        print("Data saved successfully!")
+                    }
+                }
+                self.performSegue(withIdentifier: "goToMenuRegister", sender: self)
+            }
         }
+        
+
+        
     }
     
     /*

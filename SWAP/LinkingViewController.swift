@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class LinkingViewController: UIViewController {
 
@@ -16,7 +17,48 @@ class LinkingViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var snapchatNick: UITextField!
+    @IBOutlet weak var instagramNick: UITextField!
+    
+    @IBAction func snapchatLink(_ sender: UIButton) {
+        
+        snapchatNick.endEditing(true)
+        
+        snapchatNick.isEnabled = false
+        
+        let userID = Auth.auth().currentUser?.uid
+        
+        var ref: DatabaseReference!
+        
+        ref = Database.database().reference()
+        
+        ref.child("users").child(userID!).updateChildValues(["Snapchat-nick":snapchatNick.text!])
+        
+        snapchatNick.text = ""
+        snapchatNick.isEnabled = true
+        
+    }
+    
+    @IBAction func instagramLink(_ sender: Any) {
+        
+        instagramNick.endEditing(true)
+        
+        instagramNick.isEnabled = false
+        
+        let userID = Auth.auth().currentUser?.uid
+        
+        var ref: DatabaseReference!
+        
+        ref = Database.database().reference()
+        
+        ref.child("users").child(userID!).updateChildValues(["Instagram-nick":instagramNick.text!])
+        
+        instagramNick.text = ""
+        instagramNick.isEnabled = true
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 
