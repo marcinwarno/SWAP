@@ -373,10 +373,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="TLg-SE-qnL"/>
                     <connections>
-<<<<<<< HEAD
                         <outlet property="instagramNick" destination="7bq-5A-m5c" id="G1t-gM-mFe"/>
-=======
->>>>>>> 6e29caea86e594ad1c3d43d6712023e33943d6ae
                         <outlet property="snapchatNick" destination="gVo-5r-MEu" id="Q1V-up-L5C"/>
                     </connections>
                 </viewController>
