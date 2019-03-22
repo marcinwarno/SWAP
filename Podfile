@@ -7,10 +7,7 @@ target 'SWAP' do
 
   # Pods for SWAP
 
-pod 'Firebase'
-pod 'Firebase/Auth'
-pod 'Firebase/Database'
-
-
-
+  pod 'Firebase'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
 end
