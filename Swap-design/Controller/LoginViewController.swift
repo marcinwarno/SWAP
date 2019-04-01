@@ -43,6 +43,7 @@ class LoginViewController: UIViewController {
         }
     }
     
+    
     func fetchProfile(){
         let parameters = ["fields": "name, email, link, id"]
         FBSDKGraphRequest(graphPath: "me", parameters: parameters)?.start(completionHandler: { (connection, result, error) in
