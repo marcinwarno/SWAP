@@ -15,31 +15,12 @@
 		0531AA09225213F7001E96F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA08225213F7001E96F6 /* ViewController.swift */; };
 		0531AA0B22521480001E96F6 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA0A22521480001E96F6 /* LinksViewController.swift */; };
 		0531AA1222521BF8001E96F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0531AA1122521BF8001E96F6 /* GoogleService-Info.plist */; };
-		089F817FCFB7B2654584917B /* Pods_Swap_designUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6E79F1BE006F1D2819E36D4 /* Pods_Swap_designUITests.framework */; };
 		CC3545D12B194911F520F081 /* Pods_Swap_design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E78D8AE2E5BAFAC573C7EC /* Pods_Swap_design.framework */; };
 		DE314D52224CCD1F003BD454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE314D50224CCD1F003BD454 /* Main.storyboard */; };
 		DE314D54224CCD24003BD454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE314D53224CCD24003BD454 /* Assets.xcassets */; };
 		DE314D57224CCD24003BD454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE314D55224CCD24003BD454 /* LaunchScreen.storyboard */; };
 		DE314D7E224D23A8003BD454 /* Raleway in Resources */ = {isa = PBXBuildFile; fileRef = DE314D7D224D23A8003BD454 /* Raleway */; };
-		E4C47D4BB3E5FDEF4FB99CA5 /* Pods_Swap_designTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D076692ACB080C8C11A9FC /* Pods_Swap_designTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DE314D5E224CCD24003BD454 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE314D41224CCD1F003BD454 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE314D48224CCD1F003BD454;
-			remoteInfo = "Swap-design";
-		};
-		DE314D69224CCD25003BD454 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DE314D41224CCD1F003BD454 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DE314D48224CCD1F003BD454;
-			remoteInfo = "Swap-design";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0531A9FE2252135C001E96F6 /* Constrants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrants.swift; sourceTree = "<group>"; };
@@ -50,20 +31,14 @@
 		0531AA08225213F7001E96F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0531AA0A22521480001E96F6 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
 		0531AA1122521BF8001E96F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		07AD3BED5FDFBE335EF3A4EE /* Pods-Swap-designUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-designUITests.debug.xcconfig"; path = "Target Support Files/Pods-Swap-designUITests/Pods-Swap-designUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		10D076692ACB080C8C11A9FC /* Pods_Swap_designTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swap_designTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E78D8AE2E5BAFAC573C7EC /* Pods_Swap_design.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swap_design.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864566C9B7A7F13F5DE148CF /* Pods-Swap-design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-design.debug.xcconfig"; path = "Target Support Files/Pods-Swap-design/Pods-Swap-design.debug.xcconfig"; sourceTree = "<group>"; };
-		899A1112A7A8A7F030E6E1BA /* Pods-Swap-designTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-designTests.debug.xcconfig"; path = "Target Support Files/Pods-Swap-designTests/Pods-Swap-designTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9A1434D7DADBB3D1D95EF622 /* Pods-Swap-designTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-designTests.release.xcconfig"; path = "Target Support Files/Pods-Swap-designTests/Pods-Swap-designTests.release.xcconfig"; sourceTree = "<group>"; };
 		ACB9C17C03483C375A1E4D68 /* Pods-Swap-design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-design.release.xcconfig"; path = "Target Support Files/Pods-Swap-design/Pods-Swap-design.release.xcconfig"; sourceTree = "<group>"; };
-		CE2B8A49F45B11228369A8CB /* Pods-Swap-designUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-designUITests.release.xcconfig"; path = "Target Support Files/Pods-Swap-designUITests/Pods-Swap-designUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DE314D49224CCD1F003BD454 /* Swap-design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swap-design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE314D51224CCD1F003BD454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE314D53224CCD24003BD454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE314D56224CCD24003BD454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE314D5D224CCD24003BD454 /* Swap-designTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swap-designTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE314D68224CCD25003BD454 /* Swap-designUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swap-designUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE314D7D224D23A8003BD454 /* Raleway */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Raleway; sourceTree = "<group>"; };
 		F6E79F1BE006F1D2819E36D4 /* Pods_Swap_designUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swap_designUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -74,22 +49,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC3545D12B194911F520F081 /* Pods_Swap_design.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE314D5A224CCD24003BD454 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4C47D4BB3E5FDEF4FB99CA5 /* Pods_Swap_designTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE314D65224CCD25003BD454 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				089F817FCFB7B2654584917B /* Pods_Swap_designUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,10 +90,6 @@
 			children = (
 				864566C9B7A7F13F5DE148CF /* Pods-Swap-design.debug.xcconfig */,
 				ACB9C17C03483C375A1E4D68 /* Pods-Swap-design.release.xcconfig */,
-				899A1112A7A8A7F030E6E1BA /* Pods-Swap-designTests.debug.xcconfig */,
-				9A1434D7DADBB3D1D95EF622 /* Pods-Swap-designTests.release.xcconfig */,
-				07AD3BED5FDFBE335EF3A4EE /* Pods-Swap-designUITests.debug.xcconfig */,
-				CE2B8A49F45B11228369A8CB /* Pods-Swap-designUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -163,8 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				DE314D49224CCD1F003BD454 /* Swap-design.app */,
-				DE314D5D224CCD24003BD454 /* Swap-designTests.xctest */,
-				DE314D68224CCD25003BD454 /* Swap-designUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,44 +157,6 @@
 			productReference = DE314D49224CCD1F003BD454 /* Swap-design.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE314D5C224CCD24003BD454 /* Swap-designTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE314D74224CCD25003BD454 /* Build configuration list for PBXNativeTarget "Swap-designTests" */;
-			buildPhases = (
-				7A2CAC736541F4B66CF66483 /* [CP] Check Pods Manifest.lock */,
-				DE314D59224CCD24003BD454 /* Sources */,
-				DE314D5A224CCD24003BD454 /* Frameworks */,
-				DE314D5B224CCD24003BD454 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE314D5F224CCD24003BD454 /* PBXTargetDependency */,
-			);
-			name = "Swap-designTests";
-			productName = "Swap-designTests";
-			productReference = DE314D5D224CCD24003BD454 /* Swap-designTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		DE314D67224CCD25003BD454 /* Swap-designUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DE314D77224CCD25003BD454 /* Build configuration list for PBXNativeTarget "Swap-designUITests" */;
-			buildPhases = (
-				41FF9E0194821E9EDB1937F6 /* [CP] Check Pods Manifest.lock */,
-				DE314D64224CCD25003BD454 /* Sources */,
-				DE314D65224CCD25003BD454 /* Frameworks */,
-				DE314D66224CCD25003BD454 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DE314D6A224CCD25003BD454 /* PBXTargetDependency */,
-			);
-			name = "Swap-designUITests";
-			productName = "Swap-designUITests";
-			productReference = DE314D68224CCD25003BD454 /* Swap-designUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -254,14 +169,6 @@
 				TargetAttributes = {
 					DE314D48224CCD1F003BD454 = {
 						CreatedOnToolsVersion = 10.2;
-					};
-					DE314D5C224CCD24003BD454 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = DE314D48224CCD1F003BD454;
-					};
-					DE314D67224CCD25003BD454 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = DE314D48224CCD1F003BD454;
 					};
 				};
 			};
@@ -279,8 +186,6 @@
 			projectRoot = "";
 			targets = (
 				DE314D48224CCD1F003BD454 /* Swap-design */,
-				DE314D5C224CCD24003BD454 /* Swap-designTests */,
-				DE314D67224CCD25003BD454 /* Swap-designUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -299,45 +204,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE314D5B224CCD24003BD454 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE314D66224CCD25003BD454 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41FF9E0194821E9EDB1937F6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Swap-designUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		43617C0A47AB6AFC4020196F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,28 +239,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swap-design/Pods-Swap-design-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A2CAC736541F4B66CF66483 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Swap-designTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A1EA8135B89748D5E7239F68 /* [CP] Check Pods Manifest.lock */ = {
@@ -432,34 +279,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE314D59224CCD24003BD454 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DE314D64224CCD25003BD454 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DE314D5F224CCD24003BD454 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE314D48224CCD1F003BD454 /* Swap-design */;
-			targetProxy = DE314D5E224CCD24003BD454 /* PBXContainerItemProxy */;
-		};
-		DE314D6A224CCD25003BD454 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DE314D48224CCD1F003BD454 /* Swap-design */;
-			targetProxy = DE314D69224CCD25003BD454 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DE314D50224CCD1F003BD454 /* Main.storyboard */ = {
@@ -637,88 +457,6 @@
 			};
 			name = Release;
 		};
-		DE314D75224CCD25003BD454 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 899A1112A7A8A7F030E6E1BA /* Pods-Swap-designTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Swap-designTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "swap.Swap-designTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swap-design.app/Swap-design";
-			};
-			name = Debug;
-		};
-		DE314D76224CCD25003BD454 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A1434D7DADBB3D1D95EF622 /* Pods-Swap-designTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Swap-designTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "swap.Swap-designTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swap-design.app/Swap-design";
-			};
-			name = Release;
-		};
-		DE314D78224CCD25003BD454 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07AD3BED5FDFBE335EF3A4EE /* Pods-Swap-designUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Swap-designUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "swap.Swap-designUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Swap-design";
-			};
-			name = Debug;
-		};
-		DE314D79224CCD25003BD454 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE2B8A49F45B11228369A8CB /* Pods-Swap-designUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Swap-designUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "swap.Swap-designUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Swap-design";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -736,24 +474,6 @@
 			buildConfigurations = (
 				DE314D72224CCD25003BD454 /* Debug */,
 				DE314D73224CCD25003BD454 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE314D74224CCD25003BD454 /* Build configuration list for PBXNativeTarget "Swap-designTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE314D75224CCD25003BD454 /* Debug */,
-				DE314D76224CCD25003BD454 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DE314D77224CCD25003BD454 /* Build configuration list for PBXNativeTarget "Swap-designUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DE314D78224CCD25003BD454 /* Debug */,
-				DE314D79224CCD25003BD454 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
