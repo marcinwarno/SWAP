@@ -7,30 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0531A9FF2252135C001E96F6 /* Constrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531A9FE2252135C001E96F6 /* Constrants.swift */; };
+		0531A9FF2252135C001E96F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531A9FE2252135C001E96F6 /* Constants.swift */; };
 		0531AA0122521366001E96F6 /* InstagramLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA0022521366001E96F6 /* InstagramLoginViewController.swift */; };
 		0531AA0322521373001E96F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA0222521373001E96F6 /* AppDelegate.swift */; };
 		0531AA07225213D0001E96F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA06225213D0001E96F6 /* LoginViewController.swift */; };
 		0531AA09225213F7001E96F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA08225213F7001E96F6 /* ViewController.swift */; };
 		0531AA0B22521480001E96F6 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA0A22521480001E96F6 /* LinksViewController.swift */; };
-		0531AA1222521BF8001E96F6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0531AA1122521BF8001E96F6 /* GoogleService-Info.plist */; };
+		2C8565A32254A4D500D38D47 /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C85659C2254A4D500D38D47 /* Raleway-Medium.ttf */; };
+		2C8565A42254A4D500D38D47 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C85659D2254A4D500D38D47 /* Raleway-SemiBold.ttf */; };
+		2C8565A52254A4D500D38D47 /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C85659E2254A4D500D38D47 /* Raleway-Thin.ttf */; };
+		2C8565A62254A4D500D38D47 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C85659F2254A4D500D38D47 /* Raleway-Regular.ttf */; };
+		2C8565A72254A4D500D38D47 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C8565A02254A4D500D38D47 /* Raleway-ExtraBold.ttf */; };
+		2C8565A82254A4D500D38D47 /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C8565A12254A4D500D38D47 /* Raleway-Light.ttf */; };
+		2C8565A92254A4D500D38D47 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C8565A22254A4D500D38D47 /* Raleway-ExtraLight.ttf */; };
 		CC3545D12B194911F520F081 /* Pods_Swap_design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E78D8AE2E5BAFAC573C7EC /* Pods_Swap_design.framework */; };
 		DE314D52224CCD1F003BD454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE314D50224CCD1F003BD454 /* Main.storyboard */; };
 		DE314D54224CCD24003BD454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE314D53224CCD24003BD454 /* Assets.xcassets */; };
 		DE314D57224CCD24003BD454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE314D55224CCD24003BD454 /* LaunchScreen.storyboard */; };
-		DE314D7E224D23A8003BD454 /* Raleway in Resources */ = {isa = PBXBuildFile; fileRef = DE314D7D224D23A8003BD454 /* Raleway */; };
+		DEA9001122526C1D0018333C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEA9001022526C1D0018333C /* GoogleService-Info.plist */; };
+		DEA900142252B2710018333C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA900122252B2700018333C /* RoundedButton.swift */; };
+		DEA900152252B2710018333C /* RoundedTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA900132252B2700018333C /* RoundedTopView.swift */; };
+		DEA900172253DFC90018333C /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA900162253DFC90018333C /* RoundedTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0531A9FE2252135C001E96F6 /* Constrants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrants.swift; sourceTree = "<group>"; };
+		0531A9FE2252135C001E96F6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0531AA0022521366001E96F6 /* InstagramLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramLoginViewController.swift; sourceTree = "<group>"; };
 		0531AA0222521373001E96F6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0531AA042252138C001E96F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0531AA06225213D0001E96F6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0531AA08225213F7001E96F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0531AA0A22521480001E96F6 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
-		0531AA1122521BF8001E96F6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		10D076692ACB080C8C11A9FC /* Pods_Swap_designTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swap_designTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C85659C2254A4D500D38D47 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		2C85659D2254A4D500D38D47 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		2C85659E2254A4D500D38D47 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Thin.ttf"; sourceTree = "<group>"; };
+		2C85659F2254A4D500D38D47 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		2C8565A02254A4D500D38D47 /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2C8565A12254A4D500D38D47 /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		2C8565A22254A4D500D38D47 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
 		48E78D8AE2E5BAFAC573C7EC /* Pods_Swap_design.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swap_design.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864566C9B7A7F13F5DE148CF /* Pods-Swap-design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-design.debug.xcconfig"; path = "Target Support Files/Pods-Swap-design/Pods-Swap-design.debug.xcconfig"; sourceTree = "<group>"; };
 		ACB9C17C03483C375A1E4D68 /* Pods-Swap-design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-design.release.xcconfig"; path = "Target Support Files/Pods-Swap-design/Pods-Swap-design.release.xcconfig"; sourceTree = "<group>"; };
@@ -38,8 +52,10 @@
 		DE314D51224CCD1F003BD454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE314D53224CCD24003BD454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE314D56224CCD24003BD454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE314D7D224D23A8003BD454 /* Raleway */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Raleway; sourceTree = "<group>"; };
-		F6E79F1BE006F1D2819E36D4 /* Pods_Swap_designUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swap_designUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA9001022526C1D0018333C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEA900122252B2700018333C /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		DEA900132252B2700018333C /* RoundedTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedTopView.swift; sourceTree = "<group>"; };
+		DEA900162253DFC90018333C /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +73,9 @@
 		05AE8E5C224E68490000D78A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DEA900122252B2700018333C /* RoundedButton.swift */,
+				DEA900162253DFC90018333C /* RoundedTextField.swift */,
+				DEA900132252B2700018333C /* RoundedTopView.swift */,
 				DE314D50224CCD1F003BD454 /* Main.storyboard */,
 				DE314D55224CCD24003BD454 /* LaunchScreen.storyboard */,
 				DE314D53224CCD24003BD454 /* Assets.xcassets */,
@@ -67,9 +86,8 @@
 		05AE8E5D224E684E0000D78A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0531A9FE2252135C001E96F6 /* Constrants.swift */,
+				0531A9FE2252135C001E96F6 /* Constants.swift */,
 				0531AA0022521366001E96F6 /* InstagramLoginViewController.swift */,
-				0531AA0222521373001E96F6 /* AppDelegate.swift */,
 				0531AA06225213D0001E96F6 /* LoginViewController.swift */,
 				0531AA08225213F7001E96F6 /* ViewController.swift */,
 				0531AA0A22521480001E96F6 /* LinksViewController.swift */,
@@ -82,6 +100,30 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		2C85659A2254A49400D38D47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C85659B2254A4C300D38D47 /* Raleway */,
+				0531AA042252138C001E96F6 /* Info.plist */,
+				DEA9001022526C1D0018333C /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C85659B2254A4C300D38D47 /* Raleway */ = {
+			isa = PBXGroup;
+			children = (
+				2C8565A02254A4D500D38D47 /* Raleway-ExtraBold.ttf */,
+				2C8565A22254A4D500D38D47 /* Raleway-ExtraLight.ttf */,
+				2C8565A12254A4D500D38D47 /* Raleway-Light.ttf */,
+				2C85659C2254A4D500D38D47 /* Raleway-Medium.ttf */,
+				2C85659F2254A4D500D38D47 /* Raleway-Regular.ttf */,
+				2C85659D2254A4D500D38D47 /* Raleway-SemiBold.ttf */,
+				2C85659E2254A4D500D38D47 /* Raleway-Thin.ttf */,
+			);
+			path = Raleway;
 			sourceTree = "<group>";
 		};
 		AAB2F0E75EE29DBEEA0FA6FD /* Pods */ = {
@@ -97,8 +139,6 @@
 			isa = PBXGroup;
 			children = (
 				48E78D8AE2E5BAFAC573C7EC /* Pods_Swap_design.framework */,
-				10D076692ACB080C8C11A9FC /* Pods_Swap_designTests.framework */,
-				F6E79F1BE006F1D2819E36D4 /* Pods_Swap_designUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,12 +164,11 @@
 		DE314D4B224CCD1F003BD454 /* Swap-design */ = {
 			isa = PBXGroup;
 			children = (
-				DE314D7D224D23A8003BD454 /* Raleway */,
+				2C85659A2254A49400D38D47 /* Supporting Files */,
 				05AE8E64224E69C40000D78A /* Model */,
 				05AE8E5C224E68490000D78A /* View */,
 				05AE8E5D224E684E0000D78A /* Controller */,
-				0531AA042252138C001E96F6 /* Info.plist */,
-				0531AA1122521BF8001E96F6 /* GoogleService-Info.plist */,
+				0531AA0222521373001E96F6 /* AppDelegate.swift */,
 			);
 			path = "Swap-design";
 			sourceTree = "<group>";
@@ -194,11 +233,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE314D7E224D23A8003BD454 /* Raleway in Resources */,
+				2C8565A82254A4D500D38D47 /* Raleway-Light.ttf in Resources */,
+				2C8565A52254A4D500D38D47 /* Raleway-Thin.ttf in Resources */,
+				2C8565A32254A4D500D38D47 /* Raleway-Medium.ttf in Resources */,
 				DE314D57224CCD24003BD454 /* LaunchScreen.storyboard in Resources */,
+				2C8565A62254A4D500D38D47 /* Raleway-Regular.ttf in Resources */,
 				DE314D54224CCD24003BD454 /* Assets.xcassets in Resources */,
+				2C8565A72254A4D500D38D47 /* Raleway-ExtraBold.ttf in Resources */,
+				2C8565A92254A4D500D38D47 /* Raleway-ExtraLight.ttf in Resources */,
 				DE314D52224CCD1F003BD454 /* Main.storyboard in Resources */,
-				0531AA1222521BF8001E96F6 /* GoogleService-Info.plist in Resources */,
+				DEA9001122526C1D0018333C /* GoogleService-Info.plist in Resources */,
+				2C8565A42254A4D500D38D47 /* Raleway-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +316,11 @@
 				0531AA09225213F7001E96F6 /* ViewController.swift in Sources */,
 				0531AA07225213D0001E96F6 /* LoginViewController.swift in Sources */,
 				0531AA0322521373001E96F6 /* AppDelegate.swift in Sources */,
-				0531A9FF2252135C001E96F6 /* Constrants.swift in Sources */,
+				0531A9FF2252135C001E96F6 /* Constants.swift in Sources */,
+				DEA900142252B2710018333C /* RoundedButton.swift in Sources */,
 				0531AA0B22521480001E96F6 /* LinksViewController.swift in Sources */,
+				DEA900152252B2710018333C /* RoundedTopView.swift in Sources */,
+				DEA900172253DFC90018333C /* RoundedTextField.swift in Sources */,
 				0531AA0122521366001E96F6 /* InstagramLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

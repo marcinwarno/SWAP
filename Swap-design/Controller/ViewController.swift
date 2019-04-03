@@ -17,14 +17,28 @@ class ViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         navigationController?.isNavigationBarHidden = true
-        qrCodeContainer.layer.cornerRadius = 10
+//        qrCodeContainer.layer.cornerRadius = 10
         qrCodeContainer.layer.shadowColor = UIColor.black.cgColor
         qrCodeContainer.layer.shadowRadius = 30
         qrCodeContainer.layer.shadowOpacity = 0.1
         qrCodeContainer.layer.shadowOffset = CGSize(width: 0, height: 10)
         
+        qrCodeContainer.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
+        qrCodeContainer.layer.cornerRadius = 20
+        qrCodeContainer.layer.masksToBounds = true
         
-        linksContainer.layer.cornerRadius = 10
+        
+//        linksContainer.layer.cornerRadius = 10
+        linksContainer.layer.shadowColor = UIColor.black.cgColor
+        linksContainer.layer.shadowRadius = 30
+        linksContainer.layer.shadowOpacity = 0.1
+        linksContainer.layer.shadowOffset = CGSize(width: 0, height: 10)
+        
+        
+        linksContainer.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
+        linksContainer.layer.cornerRadius = 20
+        linksContainer.layer.masksToBounds = true
+        
     }
     
 
@@ -37,5 +51,10 @@ class ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) {
+        
+    }
 
 }
