@@ -10,7 +10,6 @@
 		0531A9FF2252135C001E96F6 /* Constrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531A9FE2252135C001E96F6 /* Constrants.swift */; };
 		0531AA0122521366001E96F6 /* InstagramLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA0022521366001E96F6 /* InstagramLoginViewController.swift */; };
 		0531AA0322521373001E96F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA0222521373001E96F6 /* AppDelegate.swift */; };
-		0531AA052252138C001E96F6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0531AA042252138C001E96F6 /* Info.plist */; };
 		0531AA07225213D0001E96F6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA06225213D0001E96F6 /* LoginViewController.swift */; };
 		0531AA09225213F7001E96F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA08225213F7001E96F6 /* ViewController.swift */; };
 		0531AA0B22521480001E96F6 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531AA0A22521480001E96F6 /* LinksViewController.swift */; };
@@ -197,7 +196,6 @@
 			files = (
 				DE314D7E224D23A8003BD454 /* Raleway in Resources */,
 				DE314D57224CCD24003BD454 /* LaunchScreen.storyboard in Resources */,
-				0531AA052252138C001E96F6 /* Info.plist in Resources */,
 				DE314D54224CCD24003BD454 /* Assets.xcassets in Resources */,
 				DE314D52224CCD1F003BD454 /* Main.storyboard in Resources */,
 				0531AA1222521BF8001E96F6 /* GoogleService-Info.plist in Resources */,
