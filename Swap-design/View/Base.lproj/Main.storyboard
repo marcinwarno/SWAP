@@ -22,6 +22,9 @@
         <array key="Raleway-Regular.ttf">
             <string>Raleway-Regular</string>
         </array>
+        <array key="Raleway-SemiBold.ttf">
+            <string>Raleway-SemiBold</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Login View Controller-->
@@ -58,7 +61,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="gwW-AH-gBH"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway SemiBold" pointSize="17"/>
                                                 <state key="normal" title="Continue with Facebook">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
@@ -72,10 +75,13 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="jDr-dC-IVn"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway SemiBold" pointSize="17"/>
                                                 <state key="normal" title="Continue with Email">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="Hch-w1-LfN" kind="show" id="hSa-FD-VZO"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -153,6 +159,9 @@
                                 <state key="normal" title="next">
                                     <color key="titleColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="0cV-mm-62K" kind="show" id="Qhd-fF-SIJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94893664121627808" green="0.94907277822494507" blue="0.94890671968460083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -299,6 +308,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="0dX-8H-Jyo"/>
                     <connections>
+                        <outlet property="imageView" destination="ese-Dr-zvT" id="dra-CN-Wmh"/>
                         <outlet property="linksContainer" destination="Em5-Ag-VzO" id="R8z-x3-nPF"/>
                         <outlet property="qrCodeContainer" destination="jjO-gK-5nv" id="uQX-nD-CHp"/>
                     </connections>
@@ -454,7 +464,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="email adress" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0xM-y6-3Mb" customClass="RoundedTextField" customModule="Swap_design" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0xM-y6-3Mb" customClass="RoundedTextField" customModule="Swap_design" customModuleProvider="target">
                                 <rect key="frame" x="56.5" y="308.5" width="262.5" height="50"/>
                                 <color key="backgroundColor" red="0.81960784310000001" green="0.81960784310000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -482,6 +492,9 @@
                                 <state key="normal" title="next">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lbW-8q-a8j" kind="show" id="d0R-BX-cTv"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Good to see you back!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5GX-Ls-JXa">
                                 <rect key="frame" x="75" y="80" width="225" height="82.5"/>
@@ -553,6 +566,9 @@
                                 <state key="normal" title="next">
                                     <color key="titleColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Z4q-2e-VkX" kind="show" id="1jE-Ha-q9x"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" placeholder="retype password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2zY-8w-ZLg" customClass="RoundedTextField" customModule="Swap_design" customModuleProvider="target">
                                 <rect key="frame" x="56.5" y="388.5" width="262.5" height="50"/>
@@ -602,5 +618,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="2lt-yS-HTB"/>
+        <segue reference="FeD-dz-wG1"/>
     </inferredMetricsTieBreakers>
 </document>
