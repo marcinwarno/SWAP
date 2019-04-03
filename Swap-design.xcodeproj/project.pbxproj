@@ -28,6 +28,8 @@
 		DEA900142252B2710018333C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA900122252B2700018333C /* RoundedButton.swift */; };
 		DEA900152252B2710018333C /* RoundedTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA900132252B2700018333C /* RoundedTopView.swift */; };
 		DEA900172253DFC90018333C /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA900162253DFC90018333C /* RoundedTextField.swift */; };
+		DEF0E17D2254D8BF001D2944 /* CheckEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF0E17C2254D8BF001D2944 /* CheckEmailViewController.swift */; };
+		DEF0E17F2254D8F1001D2944 /* EmailLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF0E17E2254D8F1001D2944 /* EmailLoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		DEA900122252B2700018333C /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		DEA900132252B2700018333C /* RoundedTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedTopView.swift; sourceTree = "<group>"; };
 		DEA900162253DFC90018333C /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		DEF0E17C2254D8BF001D2944 /* CheckEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEmailViewController.swift; sourceTree = "<group>"; };
+		DEF0E17E2254D8F1001D2944 /* EmailLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailLoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				0531AA06225213D0001E96F6 /* LoginViewController.swift */,
 				0531AA08225213F7001E96F6 /* ViewController.swift */,
 				0531AA0A22521480001E96F6 /* LinksViewController.swift */,
+				DEF0E17C2254D8BF001D2944 /* CheckEmailViewController.swift */,
+				DEF0E17E2254D8F1001D2944 /* EmailLoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -318,9 +324,11 @@
 				0531AA0322521373001E96F6 /* AppDelegate.swift in Sources */,
 				0531A9FF2252135C001E96F6 /* Constants.swift in Sources */,
 				DEA900142252B2710018333C /* RoundedButton.swift in Sources */,
+				DEF0E17F2254D8F1001D2944 /* EmailLoginViewController.swift in Sources */,
 				0531AA0B22521480001E96F6 /* LinksViewController.swift in Sources */,
 				DEA900152252B2710018333C /* RoundedTopView.swift in Sources */,
 				DEA900172253DFC90018333C /* RoundedTextField.swift in Sources */,
+				DEF0E17D2254D8BF001D2944 /* CheckEmailViewController.swift in Sources */,
 				0531AA0122521366001E96F6 /* InstagramLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

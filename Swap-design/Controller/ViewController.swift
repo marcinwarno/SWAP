@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var linksContainer: UIView!
     @IBOutlet weak var qrCodeContainer: UIView!
+    let currentUserId = Auth.auth().currentUser?.uid
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -38,6 +41,7 @@ class ViewController: UIViewController {
         linksContainer.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner]
         linksContainer.layer.cornerRadius = 20
         linksContainer.layer.masksToBounds = true
+        imageView.image = generateQRCode(from: "http://swap.com.pl/users.html?\(currentUserId!)")
         
     }
     
@@ -51,6 +55,20 @@ class ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    func generateQRCode(from string: String) -> UIImage? {
+    let data = string.data(using: String.Encoding.ascii)
+    
+    if let filter = CIFilter(name: "CIQRCodeGenerator") {
+        filter.setValue(data, forKey: "inputMessage")
+        let transform = CGAffineTransform(scaleX: 10, y: 10)
+        
+        if let output = filter.outputImage?.transformed(by: transform) {
+            return UIImage(ciImage: output)
+        }
+    }
+        
+        return nil
+    }
     
     
     @IBAction func unwindToHome(segue: UIStoryboardSegue) {
