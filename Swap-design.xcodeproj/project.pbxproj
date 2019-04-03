@@ -76,9 +76,6 @@
 				DEA900122252B2700018333C /* RoundedButton.swift */,
 				DEA900162253DFC90018333C /* RoundedTextField.swift */,
 				DEA900132252B2700018333C /* RoundedTopView.swift */,
-				DE314D50224CCD1F003BD454 /* Main.storyboard */,
-				DE314D55224CCD24003BD454 /* LaunchScreen.storyboard */,
-				DE314D53224CCD24003BD454 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -105,6 +102,9 @@
 		2C85659A2254A49400D38D47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE314D50224CCD1F003BD454 /* Main.storyboard */,
+				DE314D55224CCD24003BD454 /* LaunchScreen.storyboard */,
+				DE314D53224CCD24003BD454 /* Assets.xcassets */,
 				2C85659B2254A4C300D38D47 /* Raleway */,
 				0531AA042252138C001E96F6 /* Info.plist */,
 				DEA9001022526C1D0018333C /* GoogleService-Info.plist */,
@@ -164,10 +164,10 @@
 		DE314D4B224CCD1F003BD454 /* Swap-design */ = {
 			isa = PBXGroup;
 			children = (
-				2C85659A2254A49400D38D47 /* Supporting Files */,
 				05AE8E64224E69C40000D78A /* Model */,
 				05AE8E5C224E68490000D78A /* View */,
 				05AE8E5D224E684E0000D78A /* Controller */,
+				2C85659A2254A49400D38D47 /* Supporting Files */,
 				0531AA0222521373001E96F6 /* AppDelegate.swift */,
 			);
 			path = "Swap-design";
