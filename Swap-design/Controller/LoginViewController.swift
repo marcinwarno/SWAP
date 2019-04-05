@@ -110,6 +110,8 @@ class LoginViewController: UIViewController {
             if snapshot.hasChild(currentUserID!){
                 //Do nothing
                 print("User is already in database")
+
+
             }
             else{
                 //Ad user to databse

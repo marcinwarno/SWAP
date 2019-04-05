@@ -66,10 +66,8 @@ class ViewController: UIViewController {
             return UIImage(ciImage: output)
         }
     }
-        
         return nil
     }
-    
     
     @IBAction func unwindToHome(segue: UIStoryboardSegue) {
         

@@ -7,16 +7,39 @@
 //
 
 import UIKit
+import Firebase
 
-class LinksViewController: UIViewController {
+class LinksViewController: UIViewController  {
 
+    var instagramProfile = ""
+    var databaseHandle : DatabaseHandle!
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let currentUserId = Auth.auth().currentUser?.uid
+        
+        let databaseReference = Database.database().reference()
+        
+        databaseHandle = databaseReference.child("user").child(currentUserId!).observe(.value , with: { (snapshot) in
+            print("Trying to fetch data from database")
+            
+            if let userDict = snapshot.value as? [String:Any] {
+                
+            }
+            
+        })
+        print("kupa")
 
+        let linkCell = UINib(nibName: "LinkTableViewCell", bundle: nil)
+        let linkedCell = UINib(nibName: "LinkedTableViewCell", bundle: nil)
+
+        tableView.register(linkCell, forCellReuseIdentifier: "Link Cell")
+        tableView.register(linkedCell, forCellReuseIdentifier: "Linked Cell")
         // Do any additional setup after loading the view.
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -30,12 +53,15 @@ class LinksViewController: UIViewController {
 }
 
 extension LinksViewController: UITableViewDataSource {
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Link Cell", for: indexPath)
+                
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Linked Cell", for: indexPath)
+
         return cell
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 2
+        return 1
     }
 }

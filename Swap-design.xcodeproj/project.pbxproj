@@ -22,8 +22,12 @@
 		2C8565A92254A4D500D38D47 /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C8565A22254A4D500D38D47 /* Raleway-ExtraLight.ttf */; };
 		CC3545D12B194911F520F081 /* Pods_Swap_design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E78D8AE2E5BAFAC573C7EC /* Pods_Swap_design.framework */; };
 		DE314D52224CCD1F003BD454 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE314D50224CCD1F003BD454 /* Main.storyboard */; };
-		DE314D54224CCD24003BD454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE314D53224CCD24003BD454 /* Assets.xcassets */; };
 		DE314D57224CCD24003BD454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE314D55224CCD24003BD454 /* LaunchScreen.storyboard */; };
+		DE3A2149225763F00092384C /* LinkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3C840B2257525400EEB61A /* LinkTableViewCell.xib */; };
+		DE3A2155225772EF0092384C /* LinkedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3A2154225772EE0092384C /* LinkedTableViewCell.swift */; };
+		DE3A21562257732A0092384C /* LinkedTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE3A2153225772EE0092384C /* LinkedTableViewCell.xib */; };
+		DE3C840D2257525400EEB61A /* LinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3C840C2257525400EEB61A /* LinkTableViewCell.swift */; };
+		DE41EC0322552FC0006400FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE41EC0222552FBF006400FD /* Assets.xcassets */; };
 		DEA9001122526C1D0018333C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEA9001022526C1D0018333C /* GoogleService-Info.plist */; };
 		DEA900142252B2710018333C /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA900122252B2700018333C /* RoundedButton.swift */; };
 		DEA900152252B2710018333C /* RoundedTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA900132252B2700018333C /* RoundedTopView.swift */; };
@@ -52,8 +56,12 @@
 		ACB9C17C03483C375A1E4D68 /* Pods-Swap-design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swap-design.release.xcconfig"; path = "Target Support Files/Pods-Swap-design/Pods-Swap-design.release.xcconfig"; sourceTree = "<group>"; };
 		DE314D49224CCD1F003BD454 /* Swap-design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swap-design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE314D51224CCD1F003BD454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DE314D53224CCD24003BD454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE314D56224CCD24003BD454 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE3A2153225772EE0092384C /* LinkedTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LinkedTableViewCell.xib; path = "/Users/marcinwarno/Documents/SWAP/Swap-design/View/LinkedTableViewCell.xib"; sourceTree = "<absolute>"; };
+		DE3A2154225772EE0092384C /* LinkedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkedTableViewCell.swift; path = "/Users/marcinwarno/Documents/SWAP/Swap-design/View/LinkedTableViewCell.swift"; sourceTree = "<absolute>"; };
+		DE3C840B2257525400EEB61A /* LinkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LinkTableViewCell.xib; path = "/Users/marcinwarno/Documents/SWAP/Swap-design/View/LinkTableViewCell.xib"; sourceTree = "<absolute>"; };
+		DE3C840C2257525400EEB61A /* LinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LinkTableViewCell.swift; path = "/Users/marcinwarno/Documents/SWAP/Swap-design/View/LinkTableViewCell.swift"; sourceTree = "<absolute>"; };
+		DE41EC0222552FBF006400FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA9001022526C1D0018333C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DEA900122252B2700018333C /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		DEA900132252B2700018333C /* RoundedTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedTopView.swift; sourceTree = "<group>"; };
@@ -77,6 +85,10 @@
 		05AE8E5C224E68490000D78A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DE3A2154225772EE0092384C /* LinkedTableViewCell.swift */,
+				DE3A2153225772EE0092384C /* LinkedTableViewCell.xib */,
+				DE3C840C2257525400EEB61A /* LinkTableViewCell.swift */,
+				DE3C840B2257525400EEB61A /* LinkTableViewCell.xib */,
 				DEA900122252B2700018333C /* RoundedButton.swift */,
 				DEA900162253DFC90018333C /* RoundedTextField.swift */,
 				DEA900132252B2700018333C /* RoundedTopView.swift */,
@@ -109,8 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				DE314D50224CCD1F003BD454 /* Main.storyboard */,
+				DE41EC0222552FBF006400FD /* Assets.xcassets */,
 				DE314D55224CCD24003BD454 /* LaunchScreen.storyboard */,
-				DE314D53224CCD24003BD454 /* Assets.xcassets */,
 				2C85659B2254A4C300D38D47 /* Raleway */,
 				0531AA042252138C001E96F6 /* Info.plist */,
 				DEA9001022526C1D0018333C /* GoogleService-Info.plist */,
@@ -241,12 +253,14 @@
 			files = (
 				2C8565A82254A4D500D38D47 /* Raleway-Light.ttf in Resources */,
 				2C8565A52254A4D500D38D47 /* Raleway-Thin.ttf in Resources */,
+				DE3A21562257732A0092384C /* LinkedTableViewCell.xib in Resources */,
+				DE41EC0322552FC0006400FD /* Assets.xcassets in Resources */,
 				2C8565A32254A4D500D38D47 /* Raleway-Medium.ttf in Resources */,
 				DE314D57224CCD24003BD454 /* LaunchScreen.storyboard in Resources */,
 				2C8565A62254A4D500D38D47 /* Raleway-Regular.ttf in Resources */,
-				DE314D54224CCD24003BD454 /* Assets.xcassets in Resources */,
 				2C8565A72254A4D500D38D47 /* Raleway-ExtraBold.ttf in Resources */,
 				2C8565A92254A4D500D38D47 /* Raleway-ExtraLight.ttf in Resources */,
+				DE3A2149225763F00092384C /* LinkTableViewCell.xib in Resources */,
 				DE314D52224CCD1F003BD454 /* Main.storyboard in Resources */,
 				DEA9001122526C1D0018333C /* GoogleService-Info.plist in Resources */,
 				2C8565A42254A4D500D38D47 /* Raleway-SemiBold.ttf in Resources */,
@@ -270,6 +284,12 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKBitmojiKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKCoreKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKCreativeKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -282,6 +302,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKBitmojiKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKCreativeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -328,8 +354,10 @@
 				0531AA0B22521480001E96F6 /* LinksViewController.swift in Sources */,
 				DEA900152252B2710018333C /* RoundedTopView.swift in Sources */,
 				DEA900172253DFC90018333C /* RoundedTextField.swift in Sources */,
+				DE3A2155225772EF0092384C /* LinkedTableViewCell.swift in Sources */,
 				DEF0E17D2254D8BF001D2944 /* CheckEmailViewController.swift in Sources */,
 				0531AA0122521366001E96F6 /* InstagramLoginViewController.swift in Sources */,
+				DE3C840D2257525400EEB61A /* LinkTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
