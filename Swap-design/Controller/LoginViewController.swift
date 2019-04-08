@@ -54,6 +54,11 @@ class LoginViewController: UIViewController {
                 return
             }
             
+            if let fbid = (result as AnyObject)["id"]! as? String
+            {
+                print("Facebook Login id \(fbid)")
+            }
+            
             if let fbemail = (result as AnyObject)["email"]! as? String
             {
                 self.FbEmail = fbemail

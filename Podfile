@@ -8,4 +8,5 @@ target 'Swap-design' do
   pod 'Firebase/Database'
   pod 'FBSDKLoginKit'
   pod 'FBSDKCoreKit'
+  pod 'SnapSDK'
 end

@@ -184,6 +184,34 @@
             </objects>
             <point key="canvasLocation" x="756" y="731.78410794602701"/>
         </scene>
+        <!--Snap Login Controller-->
+        <scene sceneID="YIJ-QN-ciE">
+            <objects>
+                <viewController id="n8i-sG-BSb" customClass="SnapLoginController" customModule="Swap_design" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8aR-fL-wD0">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOr-1f-Akf">
+                                <rect key="frame" x="116" y="597" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Login With Snapchat"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="n8i-sG-BSb" eventType="touchUpInside" id="lO8-AL-hHQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2Vg-oH-SS4"/>
+                    </view>
+                    <connections>
+                        <segue destination="Z4q-2e-VkX" kind="show" identifier="comeBackToUserProfileAfterLoginWithSnap" id="3NL-pH-iRV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SFc-MB-JWu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2415" y="-793"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="0pg-r5-cej">
             <objects>
@@ -282,6 +310,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile-1" translatesAutoresizingMaskIntoConstraints="NO" id="zlS-0D-YKn">
                                 <rect key="frame" x="40" y="50" width="60" height="60"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XnP-3t-47W">
+                                <rect key="frame" x="16" y="618" width="46" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="n8i-sG-BSb" kind="show" id="qvo-mO-YdM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94867008924484253" green="0.94938892126083374" blue="0.94878143072128296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -618,6 +654,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="2lt-yS-HTB"/>
-        <segue reference="FeD-dz-wG1"/>
+        <segue reference="3NL-pH-iRV"/>
     </inferredMetricsTieBreakers>
 </document>
