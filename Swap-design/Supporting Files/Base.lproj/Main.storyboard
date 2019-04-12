@@ -653,7 +653,8 @@
         <image name="welcome-gradientbg" width="742" height="745"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2lt-yS-HTB"/>
+        <segue reference="VLe-gd-BYl"/>
+        <segue reference="ydd-Wc-MOF"/>
         <segue reference="3NL-pH-iRV"/>
     </inferredMetricsTieBreakers>
 </document>
